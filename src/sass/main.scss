@@ -5,3 +5,11 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
+
+// Import all utils here
+@import './utils/fonts';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/variables';
+
+// Import all components here:
