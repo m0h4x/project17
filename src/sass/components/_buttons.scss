@@ -1,0 +1,43 @@
+.buttons {
+  margin: 0 auto;
+}
+
+.button-flex {
+  display: flex;
+}
+
+.button-padding {
+  padding-left: 5px;
+}
+
+.main-button {
+  width: 161px;
+  cursor: pointer;
+  height: 44px;
+  border: none;
+  &--red {
+    background: $main_red_color;
+    border-radius: 22px;
+  }
+  &--white {
+    background: $white;
+    border-radius: 22px;
+  }
+}
+
+.button-text {
+  display: flex;
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.3px;
+  align-items: center;
+  text-align: center;
+
+  &--red {
+    color: $main_red_color;
+  }
+  &--white {
+    color: $white;
+  }
+}
