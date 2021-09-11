@@ -1,5 +1,5 @@
 .buttons {
-  margin: 0 auto;
+  @include margin-x(0, 33%);
 }
 
 .button-flex {
@@ -11,10 +11,11 @@
 }
 
 .main-button {
-  width: 161px;
   cursor: pointer;
   height: 44px;
   border: none;
+  @include width(161px);
+
   &--red {
     background: $main_red_color;
     border-radius: 22px;
