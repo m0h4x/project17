@@ -8,6 +8,13 @@ body {
   font-family: 'Titan One', Arial;
 }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -21,7 +28,8 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -38,8 +46,116 @@ address {
   font-style: normal;
 }
 
-.buttons {
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bg {
+  background-color: #fff5f6;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.motto {
+  width: 75%;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.motto__primary {
+  font-size: 18px;
+  color: #ffa5ba;
+}
+
+.motto__secondary {
+  margin-top: 25px;
+  font-size: 34px;
+  color: #d41443;
+}
+
+.footer-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 45px;
+}
+
+.footer-contacts__item:not(:first-child) {
+  margin-left: 28px;
+}
+
+.footer-contacts__link {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fea5bb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-contacts__soc-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-contacts__icon {
+  fill: #fff;
+}
+
+.footer-contacts__text {
+  margin-top: 45px;
+  color: #000;
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.footer-contacts__phone {
+  color: #d41443;
+}
+
+.copyright {
+  margin-top: 48px;
+  font-family: 'DM Sans', Arial, sans-serif;
+  color: #907e82;
+  font-size: 14px;
+  font-weight: 700;
+  border-top: 1px solid #e1e1e1;
+  text-align: center;
+}
+
+.copyright__text {
+  width: 50%;
+  padding: 25px 0 25px 0;
   margin: 0 auto;
+}
+
+.buttons {
+  margin-right: 0;
+  margin-left: 33%;
 }
 
 .button-flex {
@@ -53,10 +169,10 @@ address {
 }
 
 .main-button {
-  width: 161px;
   cursor: pointer;
   height: 44px;
   border: none;
+  width: 161px;
 }
 
 .main-button--red {
@@ -93,5 +209,199 @@ address {
 
 .locations {
   background-color: #fff5f6;
+}
+
+.locations-list {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.83;
+}
+
+.locations-list--grey-color {
+  color: #907e82;
+}
+
+.locations-list--pink-color {
+  color: #ffa5ba;
+}
+
+.locations-list--margin-bottom {
+  margin-bottom: 25px;
+}
+
+.locations-list__box {
+  height: 16px;
+  width: 80px;
+  background-color: #f0d1a5;
+  color: #fff;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.locations-list__box-foodtruck {
+  width: 130px;
+  height: 16px;
+  background-color: #c2e297;
+  color: #fff;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.locations-list__item {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+          box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  width: 220px;
+}
+
+.locations-list__card {
+  padding: 43px 21px 43px 20px;
+}
+
+.locations-list__card-title {
+  margin-bottom: 10px;
+}
+
+.locations-list--border {
+  border-bottom: 1px solid #907e82;
+}
+
+.locations-list--padding {
+  padding-bottom: 25px;
+}
+
+.locations-list--padding-top {
+  padding-top: 25px;
+}
+
+.product-lable {
+  color: #ffa5ba;
+  font-family: 'Titan One', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.products-title {
+  color: #d41443;
+  font-family: 'Titan One', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.products-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 280px;
+  height: 485px;
+  border-radius: 24px;
+}
+
+.products-item.products-item--ice-cream {
+  background-color: #ffb8ca;
+}
+
+.products-item.products-item--ice-coffee {
+  background-color: #f0d1a5;
+}
+
+.products-item.products-item--milkshakes {
+  background-color: #c2e297;
+}
+
+.products-item--ice-cream::before {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -45%);
+  transform: translate(-50%, -45%);
+  position: absolute;
+  z-index: 50;
+  display: block;
+  content: '';
+  width: 249px;
+  height: 252px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.products-heading {
+  position: relative;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.products-heading.decoration::after {
+  content: '';
+  position: absolute;
+}
+
+.products-description {
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.products-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.hero-header {
+  background-color: #FFB8CA;
+  height: 502px;
 }
 /*# sourceMappingURL=main.css.map */
