@@ -9,11 +9,11 @@
   line-height: 1.83;
 
   &--grey-color {
-    color: $font_grey_color;
+    color: $font_description_color;
   }
 
   &--pink-color {
-    color: $font_pink_color;
+    color: $font_theme_color;
   }
 
   &--margin-bottom {
@@ -59,7 +59,7 @@
   }
 
   &--border {
-    border-bottom: 1px solid $font_grey_color;
+    border-bottom: 1px solid $font_description_color;
   }
 
   &--padding {
