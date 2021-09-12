@@ -1,5 +1,5 @@
 .footer-bg {
-  background-color: $main_light_pink_color;
+  background-color: $main_bg_color;
 }
 
 .container {
@@ -14,13 +14,13 @@
 
 .motto__primary {
   font-size: 18px;
-  color: $font_pink_color;
+  color: $font_theme_color;
 }
 
 .motto__secondary {
   margin-top: 25px;
   font-size: 34px;
-  color: $main_red_color;
+  color: $main_accent_color;
 }
 
 .footer-contacts {
@@ -38,7 +38,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: $footer_pink_icons;
+  background-color: $footer_icons_color;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,16 +62,16 @@
 }
 
 .footer-contacts__phone {
-  color: $main_red_color;
+  color: $main_accent_color;
 }
 
 .copyright {
   margin-top: 48px;
   font-family: 'DM Sans', Arial, sans-serif;
-  color: $font_grey_color;
+  color: $font_description_color;
   font-size: 14px;
   font-weight: 700;
-  border-top: 1px solid $footer_grey_border;
+  border-top: 1px solid $footer_border_color;
   text-align: center;
 }
 
