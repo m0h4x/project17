@@ -1,5 +1,9 @@
 .locations {
   background-color: $main_bg_color;
+
+  &__title {
+    margin-left: 38%;
+  }
 }
 .locations-list {
   font-family: DM Sans;
@@ -49,6 +53,14 @@
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
     width: 220px;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    &:nth-last-child(-n + 1) {
+      margin-bottom: 54px;
+    }
   }
   &__card {
     padding: 43px 21px 43px 20px;
