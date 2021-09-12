@@ -40,6 +40,8 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 address {
@@ -401,7 +403,71 @@ address {
 }
 
 .hero-header {
-  background-color: #FFB8CA;
+  background-color: #ffb8ca;
   height: 502px;
+}
+
+.header {
+  position: relative;
+}
+
+.header__box {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.burger {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+
+.navigation {
+  display: none;
+}
+
+.hero__title {
+  font-family: Titan One;
+  font-weight: 400px;
+  font-size: 26px;
+  line-height: 1.15;
+  line-height: 100%;
+  vertical-align: top;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 3;
+}
+
+.hero__title_color {
+  font-family: Titan One;
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 0.96;
+  vertical-align: top;
+  color: #d41443;
+  opacity: 3;
+}
+
+.hero__pic-item {
+  position: absolute;
+  top: 92px;
+  right: 32px;
+}
+
+.menu__link {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  line-height: 100%;
+  vertical-align: Center;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
