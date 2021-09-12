@@ -17,7 +17,7 @@
   @include width(161px);
 
   &--red {
-    background: $main_red_color;
+    background: $main_accent_color;
     border-radius: 22px;
   }
   &--white {
@@ -36,7 +36,7 @@
   text-align: center;
 
   &--red {
-    color: $main_red_color;
+    color: $main_accent_color;
   }
   &--white {
     color: $white;
