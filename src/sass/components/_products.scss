@@ -3,7 +3,7 @@
 }
 
 .product-lable {
-  color: #ffa5ba;
+  color: $font_theme_color;
 
   font-family: 'Titan One', sans-serif;
   font-weight: 400;
@@ -15,7 +15,7 @@
 }
 
 .products-title {
-  color: #d41443;
+  color: $main-accent-color;
 
   font-family: 'Titan One', sans-serif;
   font-weight: 400;
@@ -42,13 +42,13 @@
   border-radius: 24px;
 
   &.products-item--ice-cream {
-    background-color: #ffb8ca;
+    background-color: $header_bg_color;
   }
   &.products-item--ice-coffee {
-    background-color: #f0d1a5;
+    background-color: $ice_coffee_color;
   }
   &.products-item--milkshakes {
-    background-color: #c2e297;
+    background-color: $milkshake_color;
   }
 }
 
