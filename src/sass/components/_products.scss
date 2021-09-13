@@ -18,6 +18,8 @@
 }
 
 .products-title {
+  margin-bottom: 111px;
+
   color: $main-accent-color;
 
   font-family: 'Titan One', sans-serif;
@@ -38,6 +40,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 144px;
+  margin-left: auto;
+  margin-right: auto;
 
   width: 280px;
   height: 485px;
@@ -45,31 +50,47 @@
   border-radius: 24px;
 
   &.products-item--ice-cream {
+    position: relative;
     background-color: $header_bg_color;
+    margin-bottom: 17px;
   }
   &.products-item--ice-coffee {
+    position: relative;
     background-color: $ice_coffee_color;
+    margin-bottom: 16px;
   }
   &.products-item--milkshakes {
+    position: relative;
     background-color: $milkshake_color;
   }
 }
 
 .products-item--ice-cream::before {
+  position: absolute;
+
   top: 0;
   left: 50%;
-  -webkit-transform: translate(-50%, -45%);
   transform: translate(-50%, -45%);
-  position: absolute;
-  z-index: 50;
+
+  z-index: 100;
   display: block;
   content: '';
   width: 249px;
   height: 252px;
+  background-image: url(/images/products/ice-cream_mobile.png);
 
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+// @media (min-device-pixel-ratio: 2),
+//   (-webkit-min-device-pixel-ratio: 2),
+//   (min-resolution: 192dpi),
+//   (min-resolution: 2dppx) {
+//   .products__item--first::before {
+//     background-image: url();
+//   }
+// }
 
 .products-heading {
   position: relative;
