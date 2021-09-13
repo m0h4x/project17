@@ -13,19 +13,39 @@
   display: flex;
   justify-content: space-between;
 }
-// .header__container {
-//   width: 100%;
+@media screen and (min-width: 280px) {
+  .header__container {
+    min-height: 502px;
+    background-image: url('../images/desk-ice-cream-1.png'), url('../images/Ellipse.png');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header__container {
+      height: 100%;
+      background-image: url('/images/desk-ice-cream-1@2x.png'), url('/images/Ellipse@2x.png');
+      background-repeat: no-repeat;
+      background-size: 171px, 346px;
+      background-position: 80% 92px, right -50px top 83px;
+    }
+  }
+}
 
-//   background-image: url('/src/images/desk-ice-cream-1.png'), url('/src/images/Ellipse.png');
-// }
-// @media (min-device-pixel-ratio: 2),
-//   (-webkit-min-device-pixel-ratio: 2),
-//   (min-resolution: 192dpi),
-//   (min-resolution: 2dppx) {
-//   .header__container {
-//     background-image: url('/src/images/Ellipse.png'), url('/src/images/Ellipse@2x.png');
-//   }
-// }
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .header__container {
+    min-height: 393px;
+    background-size: 143px, 393px;
+    background-position: 344px 63px, 273px 31px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header__container {
+    min-height: 665px;
+    background-size: 236px, 538px;
+    background-position: 464px 108px, 345px 52px;
+  }
+}
 .burger {
   background-color: transparent;
   border: none;
@@ -61,7 +81,6 @@
   font-size: 48px;
   line-height: 0.96;
 
-  vertical-align: top;
   color: #d41443;
   opacity: 3;
   display: block;
@@ -81,11 +100,20 @@
   border-radius: 20px;
   background-color: #d41443;
   text-align: center;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: #c7133e;
+  }
 }
 .hero__button-item_white {
   width: 82.8px;
   background-color: #ffffff;
   margin-left: 8px;
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
 }
 .hero__button-link {
   font-family: DM Sans;
@@ -116,4 +144,27 @@
   line-height: 100%;
   vertical-align: Center;
   color: #ffffff;
+}
+
+@media screen and (min-width: 780px) {
+  .header__box {
+    padding-top: 38px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 34px;
+  }
+  .buy-now__btn {
+    display: inline-block;
+    width: 160px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    line-height: 100%;
+    color: #3a2127;
+    background-color: #ffffff;
+  }
 }
