@@ -16,11 +16,14 @@ $font_theme_color: #ffa5ba;
 $footer_icons_color: #fea5bb;
 $footer_border_color: #e1e1e1;
 
+$button_hover: #ecebeb;
+
 $locations_box_shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
 
+$transition-time: 250ms;
+$cubic-hover: cubic-bezier(0.4, 0, 0.2, 1);
 $quote-bg: #fafafa;
 $reviews-line-color: #e1e1e1; /* цвет линии в секции customer-reviews */
-
 
 /*Кнопки*/
 
