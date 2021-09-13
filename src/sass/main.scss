@@ -10,6 +10,7 @@
 @import './utils/mixins';
 @import './utils/placeholders';
 @import './utils/variables';
+@import './utils/visually-hidden';
 
 // Import all components here:
 
@@ -18,3 +19,5 @@
 @import './components/buttons';
 @import './components/locations';
 @import './components/products';
+@import './components/gallery';
+@import './components/custommer-reviews';
