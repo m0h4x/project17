@@ -4,6 +4,7 @@
  * Все паршалы подключаются сюда.
  */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap");
 body {
   font-family: 'Titan One', Arial;
 }
@@ -240,6 +241,258 @@ address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+
+.about-description-button {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-description-button {
+    width: 48.7%;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-description-button {
+    width: 43.9%;
+  }
+}
+
+.about-dеscription_1 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.75;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-dеscription_1 {
+    font-size: 14px;
+    line-height: 1.78;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-dеscription_1 {
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.04em;
+  }
+}
+
+.about-description_2 {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 1280px) {
+  .about-description_2 {
+    margin-bottom: 20px;
+  }
+}
+
+.about-description_3 {
+  margin-bottom: 21px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-description_3 {
+    margin-bottom: 62px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-description_3 {
+    margin-bottom: 45px;
+  }
+}
+
+.about-description_2,
+.about-description_3 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19.44px;
+  color: #907e82;
+}
+
+@media screen and (min-width: 768px) {
+  .about-description_2,
+  .about-description_3 {
+    font-size: 14px;
+    line-height: 1.78;
+    letter-spacing: 0.04em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-description_2,
+  .about-description_3 {
+    font-size: 14px;
+    line-height: 1.92;
+  }
+}
+
+.about-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 44px;
+  border: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #d41443;
+  padding-right: 37px;
+  padding-left: 37px;
+  border-radius: 22px;
+  background-color: #ffffff;
+}
+
+.about-images_svg {
+  width: 10px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.about-list {
+  padding-right: 50px;
+  margin-top: 39px;
+  background-position: 0px 0px, 0px 195px, 0px 389px;
+  background-size: 33px 50px, 50px 50px, 44px 50px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon1.png"), url("../images/icon2.png"), url("../images/icon3.png");
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .about-list {
+    background-image: url("../images/icon1_2x.png"), url("../images/icon2_2x.png"), url("../images/icon3_2x.png");
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-list {
+    padding-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 66px;
+    background-position: 0px 0px, 240px 0px, 480px 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-list {
+    margin-top: 39px;
+    background-position: 0px 0px, 360px 0px, 720px 0px;
+  }
+}
+
+.about-item-namber {
+  display: block;
+  margin-bottom: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  color: #d41443;
+}
+
+@media screen and (min-width: 768px) {
+  .about-item-namber {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-item-namber {
+    font-size: 58px;
+  }
+}
+
+.about-item-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.75;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .about-item-text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-item-text {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+  }
+}
+
+.about-list-item {
+  padding-top: 66px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-list-item {
+    height: 156px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-list-item {
+    width: 180px;
+    padding-top: 86px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-list-item {
+    width: 330px;
+    padding-top: 90px;
+  }
+}
+
+.about-list-item:not(:last-child) {
+  margin-bottom: 38px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-list-item:not(:last-child) {
+    margin-bottom: 0px;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-list-item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
