@@ -264,7 +264,7 @@ address {
   }
 }
 
-.about-discription_1 {
+.about-dеscription_1 {
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
@@ -274,14 +274,14 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .about-discription_1 {
+  .about-dеscription_1 {
     font-size: 14px;
     line-height: 1.78;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .about-discription_1 {
+  .about-dеscription_1 {
     margin-bottom: 35px;
     font-size: 16px;
     line-height: 1.75;
