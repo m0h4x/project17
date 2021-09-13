@@ -443,7 +443,7 @@ address {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .header__container {
     min-height: 393px;
-    background-size: 143px, 393px;
+    background-size: 143px, 323px;
     background-position: 344px 63px, 273px 31px;
   }
 }
@@ -451,6 +451,7 @@ address {
 @media screen and (min-width: 1280px) {
   .header__container {
     min-height: 665px;
+    background-repeat: no-repeat;
     background-size: 236px, 538px;
     background-position: 464px 108px, 345px 52px;
   }
@@ -570,6 +571,9 @@ address {
 }
 
 @media screen and (min-width: 780px) {
+  .hero-header {
+    height: 399px;
+  }
   .header__box {
     padding-top: 38px;
     padding-left: 34px;
@@ -586,9 +590,14 @@ address {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.31;
-    line-height: 100%;
     color: #3a2127;
     background-color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-header {
+    height: 665px;
   }
 }
 /*# sourceMappingURL=main.css.map */
