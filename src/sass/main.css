@@ -3,7 +3,8 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap');
 body {
   font-family: 'Titan One', Arial;
 }
@@ -12,7 +13,7 @@ body {
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {
@@ -85,11 +86,11 @@ address {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   margin-top: 45px;
 }
 
@@ -106,11 +107,11 @@ address {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer-contacts__soc-media {
@@ -119,8 +120,8 @@ address {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .footer-contacts__icon {
@@ -196,8 +197,8 @@ address {
   font-size: 16px;
   line-height: 1.3px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -244,11 +245,11 @@ address {
   display: flex;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .locations-list__box-foodtruck {
@@ -262,17 +263,17 @@ address {
   display: flex;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .locations-list__item {
   background-color: #fff;
   -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-          box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   width: 220px;
 }
@@ -323,8 +324,8 @@ address {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .products-item {
@@ -333,11 +334,11 @@ address {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 280px;
   height: 485px;
   border-radius: 24px;
@@ -400,131 +401,5 @@ address {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-}
-
-.hero-header {
-  background-color: #ffb8ca;
-  height: 502px;
-}
-
-.header {
-  position: relative;
-}
-
-.header__box {
-  padding-top: 6px;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.burger {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  line-height: 0;
-}
-
-.buy-now__btn {
-  display: none;
-}
-
-.navigation {
-  display: none;
-}
-
-.hero__title-container {
-  height: 106px;
-  padding-left: 20px;
-}
-
-.hero__title {
-  font-family: 'Titan One', sans-serif;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 1.15;
-  line-height: 100%;
-  vertical-align: top;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-top: 137px;
-}
-
-.hero__title_color {
-  font-family: Titan One, sans-serif;
-  font-weight: 400px;
-  font-size: 48px;
-  line-height: 0.96;
-  vertical-align: top;
-  color: #d41443;
-  opacity: 3;
-  display: block;
-  padding-top: 8px;
-}
-
-.hero__number-loc {
-  display: none;
-}
-
-.hero__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 19px;
-  padding-left: 20px;
-}
-
-.hero__button-item {
-  width: 61.2px;
-  height: 24px;
-  border-radius: 20px;
-  background-color: #d41443;
-  text-align: center;
-}
-
-.hero__button-item_white {
-  width: 82.8px;
-  background-color: #ffffff;
-  margin-left: 8px;
-}
-
-.hero__button-link {
-  font-family: DM Sans;
-  font-weight: 400;
-  font-size: 8px;
-  line-height: 1.3;
-  vertical-align: center;
-  color: #ffffff;
-}
-
-.hero__button-link_red {
-  color: #d41443;
-}
-
-.hero__text-block {
-  display: none;
-}
-
-.hero__pic-item {
-  display: none;
-  position: absolute;
-  top: 92px;
-  right: 32px;
-}
-
-.menu__link {
-  font-family: DM Sans;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.31;
-  line-height: 100%;
-  vertical-align: Center;
-  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

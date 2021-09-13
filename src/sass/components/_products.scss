@@ -1,9 +1,12 @@
 .products {
-  //   background-color: aquamarine;
+  background-color: $white;
+
+  padding-top: 121px;
+  padding-bottom: 98px;
 }
 
 .product-lable {
-  color: #ffa5ba;
+  color: $font_theme_color;
 
   font-family: 'Titan One', sans-serif;
   font-weight: 400;
@@ -15,7 +18,7 @@
 }
 
 .products-title {
-  color: #d41443;
+  color: $main-accent-color;
 
   font-family: 'Titan One', sans-serif;
   font-weight: 400;
@@ -27,8 +30,8 @@
 }
 
 .products-list {
-  display: flex;
-  justify-content: center;
+  //   display: flex;
+  //   justify-content: center;
 }
 
 .products-item {
@@ -42,13 +45,13 @@
   border-radius: 24px;
 
   &.products-item--ice-cream {
-    background-color: #ffb8ca;
+    background-color: $header_bg_color;
   }
   &.products-item--ice-coffee {
-    background-color: #f0d1a5;
+    background-color: $ice_coffee_color;
   }
   &.products-item--milkshakes {
-    background-color: #c2e297;
+    background-color: $milkshake_color;
   }
 }
 
@@ -95,6 +98,17 @@
 
   text-align: center;
   letter-spacing: 0.04em;
+}
+
+.products-description::before {
+  //   content: '';
+  //   display: block;
+  //   width: 26px;
+  //   height: 6px;
+  //   margin-right: auto;
+  //   margin-left: auto;
+  //   margin-bottom: 30px;
+  background-image: url(/images/products-decoration.png);
 }
 
 .products-btn {
