@@ -16,7 +16,7 @@
 @media screen and (min-width: 280px) {
   .header__container {
     min-height: 502px;
-    background-image: url('../images/desk-ice-cream-1.png'), url('../images/ellipse.png');
+    background-image: url('../images/desk-ice-cream-1.png'), url('../images/Ellipse.png');
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -24,7 +24,7 @@
     (min-resolution: 2dppx) {
     .header__container {
       height: 100%;
-      background-image: url('/images/desk-ice-cream-1@2x.png'), url('/images/ellipse@2x.png');
+      background-image: url('/images/desk-ice-cream-1@2x.png'), url('/images/Ellipse@2x.png');
       background-repeat: no-repeat;
       background-size: 171px, 346px;
       background-position: 80% 92px, right -50px top 83px;
