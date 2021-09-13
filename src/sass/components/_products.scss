@@ -1,5 +1,8 @@
 .products {
-  //   background-color: aquamarine;
+  background-color: $white;
+
+  padding-top: 121px;
+  padding-bottom: 98px;
 }
 
 .product-lable {
@@ -27,8 +30,8 @@
 }
 
 .products-list {
-  display: flex;
-  justify-content: center;
+  //   display: flex;
+  //   justify-content: center;
 }
 
 .products-item {
@@ -95,6 +98,17 @@
 
   text-align: center;
   letter-spacing: 0.04em;
+}
+
+.products-description::before {
+  //   content: '';
+  //   display: block;
+  //   width: 26px;
+  //   height: 6px;
+  //   margin-right: auto;
+  //   margin-left: auto;
+  //   margin-bottom: 30px;
+  background-image: url(/images/products-decoration.png);
 }
 
 .products-btn {

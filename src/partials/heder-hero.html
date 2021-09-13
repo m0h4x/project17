@@ -1,45 +1,52 @@
-<section class="hero-header">
+<section class="hero-header" name="home">
     <header class="header">
-        <div class="container">
-            <a class="logo" href="./">
-                <picture>
+        <div class="container header__container">
+            <div class="header__box">
+                <a class="logo" href="./">
+                    <picture>
 
-                    <source media="(min-width: 480px)" srcset="./images/mobile_logo.webp 1x">
+                        <source srcset="./images/logo-1.webp 1x, ./images/logo-1@2x.webp 2x" type="image/webp">
+                        <source srcset="./images/logo-1.png 1x, ./images/logo-1@2x.png 2x">
 
-                    <img class="logo__icon" src="./images/mobile_logo.webp" alt="logo">
-                </picture>
-            </a>
-            <button type="button" class="burger" data-menu-open>
-                <svg class="burger__icon" width="24" height="16">
-                    <use href=""></use>
-                </svg>
-            </button>
-            <nav class="navigation">
-                <ul class="header__menu">
-                    <li class="menu__item">
-                        <a class="menu__link">Home</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link">About us</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link">How it’s made?</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link">Our products</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <button type="button" class="buy-now">Buy now<span></span>
-            </button>
+                        <img class="logo__icon" src="#" alt="logo">
+                    </picture>
+                </a>
+                <button type="button" class="burger js-open-menu" aria-controls="mobile-menu" aria-expanded="false" data-menu-open>
+                    <svg class="burger__icon" width="20" height="12">
+                        <use href="./images/symbol-defs.svg#icon-Burger"></use>
+                    </svg>
+                </button>
+                <nav class="navigation">
+                    <ul class="header__menu">
+                        <li class="menu__item list">
+                            <a class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item list">
+                            <a class="menu__link">About us</a>
+                        </li>
+                        <li class="menu__item list">
+                            <a class="menu__link">How it’s made?</a>
+                        </li>
+                        <li class="menu__item list">
+                            <a class="menu__link">Our products</a>
+                        </li>
+                        <li class="menu__item list">
+                            <a class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="buy-now__btn">Buy now<span>
+
+                    </span>
+                </button>
+            </div>
             <div>
-                <h1 class="hero__title">ice cream
-                    made with
-                    <span class="hero__title_color">passion</span>
-                </h1>
+                <div class="hero__title-container">
+                    <h1 class="hero__title">ice cream<br>
+                        made with<br>
+                        <span class="hero__title_color">passion</span>
+                    </h1>
+                </div>
                 <ul class="hero__number-loc">
                     <li class="hero__number-loc-item">
                         <span class="hero__number-loc-things">16</span>
@@ -56,8 +63,8 @@
                 <li class="hero__button-item">
                     <a class="hero__button-link" href="">Products</a>
                 </li>
-                <li class="hero__button-item">
-                    <a class="hero__button-link" href="">How it’s made?</a>
+                <li class="hero__button-item hero__button-item_white">
+                    <a class="hero__button-link hero__button-link_red" href="">How it’s made?</a>
                 </li>
 
             </ul>
@@ -67,27 +74,36 @@
                     et</p>
             </div>
             <ul class="hero__pic">
+
                 <li class="hero__pic-item">
                     <picture>
+                        <source media="(min-width: 1200px)"
+                            srcset="./images/desk-decanter-1.webp 1x, ./images/desk-decanter-1@2x.webp 2x"
+                            type="image/webp">
+                        <source media="(min-width: 1200px)"
+                            srcset="./images/desk-decanter-1.png 1x, ./images/desk-decanter-1@2x.png 2x">
 
-                        <source media="(min-width: 480px)"
-                            srcset="./images/mobile_header.webp 1x, ./images/mobile_header_2x.webp 2x">
-                        <img class="hero__pic-img" src="#" alt="ice cream">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/tabl-decanter-1.webp 1x, ./images/tabl-decanter-1@2x.webp 2x"
+                            type="image/webp">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/tabl-decanter-1.png 1x, ./images/tabl-decanter-1@2x.png 2x">
+                        <img class="hero__pic-img" src="#" alt="decanter">
                     </picture>
-
                 </li>
                 <li class="hero__pic-item">
                     <picture>
+                        <source media="(min-width: 1200px)"
+                            srcset="./images/desk-marichka-1.webp 1x, ./images/desk-marichka-1@2x.webp 2x"
+                            type="image/webp">
+                        <source media="(min-width: 1200px)"
+                            srcset="./images/desk-marichka-1.png 1x, ./images/desk-marichka-1@2x.png 2x">
 
-                        <source media="(min-width: 480px)"
-                            srcset="./images/mobile_cow.webp 1x, ./images/mobile_cow_2x.webp 2x">
-                        <img class="hero__pic-img" src="#" alt="cow">
-                    </picture>
-                </li>
-                <li class="hero__pic-item">
-                    <picture>
-
-                        <source media="(min-width: 480px)" srcset="">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/tabl-marichka-1.webp 1x, ./images/tabl-marichka-1@2x.webp 2x"
+                            type="image/webp">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/tabl-marichka-1.png 1x, ./images/tabl-marichka-1@2x.png 2x">
                         <img class="hero__pic-img" src="#" alt="Marichka">
                     </picture>
                 </li>
