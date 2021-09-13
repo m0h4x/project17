@@ -14,8 +14,11 @@
 // Import all components here:
 
 @import './components/common';
+@import './components/about';
 @import './components/footer';
 @import './components/buttons';
 @import './components/locations';
 @import './components/products';
-@import "./layout/header";
+@import './layout/header';
+@import './components/gallery';
+@import './components/_mobile_menu.scss';

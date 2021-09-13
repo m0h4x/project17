@@ -1,0 +1,10 @@
+.gallery {
+  padding-top: 136px;
+  padding-bottom: 120px;
+  background: linear-gradient(to bottom, $main_bg_color 40%, $white 60%);
+}
+
+.gallery__container {
+  display: flex;
+  justify-content: center;
+}

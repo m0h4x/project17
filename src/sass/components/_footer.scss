@@ -1,9 +1,9 @@
 .footer-bg {
-  background-color: $main_light_pink_color;
+  background-color: $main_bg_color;
 }
 
-.container {
-  padding: 0 20px;
+.info {
+  padding-top: 105px;
 }
 
 .motto {
@@ -14,13 +14,15 @@
 
 .motto__primary {
   font-size: 18px;
-  color: $font_pink_color;
+  color: $font_theme_color;
+  letter-spacing: 0;
 }
 
 .motto__secondary {
   margin-top: 25px;
   font-size: 34px;
-  color: $main_red_color;
+  color: $main_accent_color;
+  letter-spacing: 0.04em;
 }
 
 .footer-contacts {
@@ -38,7 +40,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: $footer_pink_icons;
+  background-color: $footer_icons_color;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,19 +61,21 @@
   font-family: 'DM Sans', Arial, sans-serif;
   font-size: 12px;
   font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 0.02em;
 }
 
 .footer-contacts__phone {
-  color: $main_red_color;
+  color: $main_accent_color;
 }
 
 .copyright {
   margin-top: 48px;
   font-family: 'DM Sans', Arial, sans-serif;
-  color: $font_grey_color;
+  color: $font_description_color;
   font-size: 14px;
   font-weight: 700;
-  border-top: 1px solid $footer_grey_border;
+  border-top: 1px solid $footer_border_color;
   text-align: center;
 }
 
@@ -79,4 +83,80 @@
   width: 50%;
   padding: 25px 0 25px 0;
   margin: 0 auto;
+  line-height: 186%;
+}
+
+@media screen and (min-width: 768px) {
+  .info {
+    padding-top: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .motto {
+    width: 50%;
+  }
+
+  .motto__primary {
+    font-size: 26px;
+    letter-spacing: 0.04em;
+  }
+
+  .motto__secondary {
+    font-size: 48px;
+    letter-spacing: 0.06em;
+  }
+
+  .footer-contacts {
+    width: 50%;
+    margin: 0;
+  }
+  .footer-contacts__text {
+    margin-top: 55px;
+  }
+
+  .footer-contacts__link {
+    width: 34px;
+    height: 34px;
+  }
+
+  .footer-contacts__icon {
+    width: 21px;
+    height: 21px;
+  }
+
+  .footer-contacts__item:not(:first-child) {
+    margin-left: 30px;
+  }
+
+  .footer-contacts__text {
+    font-size: 14px;
+  }
+
+  .copyright__text {
+    padding: 29px 0 18px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .info {
+    padding-top: 170px;
+  }
+
+  .motto__primary {
+    font-size: 30px;
+  }
+
+  .motto__secondary {
+    font-size: 58px;
+  }
+
+  .footer-contacts__text {
+    font-size: 16px;
+  }
+
+  .copyright__text {
+    padding: 9px 0 10px 0;
+  }
 }
