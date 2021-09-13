@@ -101,13 +101,13 @@
 }
 
 .products-description::before {
-  //   content: '';
-  //   display: block;
-  //   width: 26px;
-  //   height: 6px;
-  //   margin-right: auto;
-  //   margin-left: auto;
-  //   margin-bottom: 30px;
+  content: '';
+  display: block;
+  width: 26px;
+  height: 6px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
   background-image: url(/images/products-decoration.png);
 }
 
