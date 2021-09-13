@@ -10,19 +10,19 @@
   display: flex;
   justify-content: space-between;
 }
-.header__container {
-  width: 100%;
+// .header__container {
+//   width: 100%;
 
-  background-image: url('./images/desk-ice-cream-1.png'), url('./images/Ellipse.png');
-}
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .header__container {
-    background-image: url('./images/desk-ice-cream-1@2x.png'), url('./images/Ellipse@2x.png');
-  }
-}
+//   background-image: url('/src/images/desk-ice-cream-1.png'), url('/src/images/Ellipse.png');
+// }
+// @media (min-device-pixel-ratio: 2),
+//   (-webkit-min-device-pixel-ratio: 2),
+//   (min-resolution: 192dpi),
+//   (min-resolution: 2dppx) {
+//   .header__container {
+//     background-image: url('/src/images/Ellipse.png'), url('/src/images/Ellipse@2x.png');
+//   }
+// }
 .burger {
   background-color: transparent;
   border: none;
