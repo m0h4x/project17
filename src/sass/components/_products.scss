@@ -16,6 +16,7 @@
 }
 
 .product-lable {
+  margin-bottom: 15px;
   color: $font_theme_color;
 
   font-family: 'Titan One', sans-serif;
@@ -47,6 +48,7 @@
 
   @media screen and (min-width: 767px) {
     font-size: 48px;
+    margin-bottom: 150px;
   }
 }
 
@@ -120,12 +122,29 @@
   background-repeat: no-repeat;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2) and (min-width: 280px),
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
+  (min-resolution: 192dpi) and (min-width: 280px),
+  (min-resolution: 2dppx) and (min-width: 280px) {
   .products-item--ice-cream::before {
     background-image: url(/images/products/ice-cream_mobile@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .products-item--ice-cream::before {
+    width: 220px;
+    height: 226px;
+    background-image: url(/images/products/ice-cream_tablet.png);
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .products-item--ice-cream::before {
+    background-image: url(/images/products/ice-cream_tablet@2x.png);
   }
 }
 
