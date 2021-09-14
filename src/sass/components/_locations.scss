@@ -48,6 +48,12 @@
     }
   }
 }
+.locations-address-list {
+  a:hover {
+    color: $ice_coffee_color;
+    transition: color $cubic-hover;
+  }
+}
 .locations-list {
   font-family: DM Sans;
   font-style: normal;
