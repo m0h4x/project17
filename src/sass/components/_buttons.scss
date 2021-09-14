@@ -1,9 +1,6 @@
-.buttons {
-  @include margin-x(0, 31.5%);
-}
-
 .button-flex {
   display: flex;
+  height: 100%;
 }
 
 .button-padding {
@@ -14,7 +11,17 @@
   cursor: pointer;
   height: 44px;
   border: none;
-  @include width(161px);
+  @media screen and (min-width: 480px) {
+    @include width(161px);
+  }
+
+  @media screen and (min-width: 768px) {
+    @include width(191px);
+  }
+
+  @media screen and (min-width: 1280px) {
+    @include width(198px);
+  }
 
   &--red {
     background: $main_accent_color;
