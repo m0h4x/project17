@@ -64,7 +64,6 @@
   font-weight: 400;
   font-size: 26px;
   line-height: 1.15;
-  line-height: 100%;
 
   vertical-align: top;
   letter-spacing: 0.04em;
@@ -72,15 +71,14 @@
   color: #ffffff;
 }
 .hero__title_color {
-  font-family: Titan One, sans-serif;
-  font-weight: 400px;
+  font-family: 'Titan One', sans-serif;
+  font-weight: 400;
   font-size: 48px;
   line-height: 0.96;
 
   color: #d41443;
-  opacity: 3;
+
   display: block;
-  padding-top: 8px;
 }
 .hero__number-loc {
   display: none;
@@ -150,7 +148,7 @@
     height: 44px;
     border: none;
     border-radius: 22px;
-    font-family: DM Sans;
+    font-family: 'DM Sans', Arial, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.31;
@@ -162,7 +160,17 @@
   }
   .hero {
     display: flex;
-    padding-top: 37px;
+    padding-top: 15px;
+  }
+  .hero__title {
+    font-size: 22px;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
+  }
+  .hero__title_color {
+    font-size: 34px;
+    line-height: 0.91;
+    letter-spacing: 0.04em;
   }
   .hero__number-loc {
     display: flex;
@@ -176,11 +184,19 @@
   .hero__number-loc-things {
     font-family: 'Titan One', sans-serif;
     font-weight: 400;
-    font-size: 46px;
-    line-height: 1.15;
+    font-size: 28px;
+    line-height: 1.14;
     letter-spacing: 0.04em;
     color: #d41443;
   }
+  .hero__number-loc-text {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    color: #ffffff;
+  }
+
   .hero__buttons {
     margin-top: 20px;
   }
@@ -226,6 +242,19 @@
   }
   .menu__link_activ {
     color: #d41443;
+  }
+  .hero {
+    padding-top: 84px;
+  }
+  .hero__title {
+    font-size: 38px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+  }
+  .hero__title_color {
+    font-size: 58px;
+    line-height: 0.9;
+    letter-spacing: 0.04em;
   }
   .hero__buttons {
     margin-top: 25px;
