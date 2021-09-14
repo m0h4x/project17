@@ -1664,6 +1664,11 @@ address {
   margin-left: auto;
 }
 
+.burger:hover, .burger:focus {
+  cursor: pointer;
+  fill: #d41443;
+}
+
 .buy-now__btn {
   display: none;
 }
@@ -1790,8 +1795,25 @@ address {
     padding-top: 37px;
   }
   .hero__number-loc {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-left: auto;
+  }
+  .hero__number-loc-things {
+    font-family: 'Titan One', sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    color: #d41443;
   }
   .hero__buttons {
     margin-top: 20px;
@@ -1825,14 +1847,17 @@ address {
     margin-left: 35px;
   }
   .menu__link {
-    font-family: DM Sans;
+    font-family: 'DM Sans', Arial, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.31;
     line-height: 100%;
     vertical-align: Center;
     color: #ffffff;
+  }
+  .menu__link:focus, .menu__link:hover {
     cursor: pointer;
+    color: #d41443;
   }
   .menu__link_activ {
     color: #d41443;
@@ -1894,6 +1919,12 @@ address {
   width: 209px;
 }
 
+.mobile-menu__button:hover,
+.mobile-menu__button:focus {
+  background-color: #ecebeb;
+  color: #d41443;
+}
+
 .button-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1941,13 +1972,13 @@ address {
   border-bottom: 1px solid #e18298;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1199px) {
   .mobile-menu {
     display: none;
   }
 }
 
-.mobile-menu__anchorn {
+.mobile-menu__anchor {
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

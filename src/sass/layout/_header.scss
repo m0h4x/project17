@@ -42,6 +42,12 @@
   padding: 0;
   line-height: 0;
   margin-left: auto;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    fill: #d41443;
+  }
 }
 .buy-now__btn {
   display: none;
@@ -159,8 +165,21 @@
     padding-top: 37px;
   }
   .hero__number-loc {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     margin-left: auto;
+  }
+  .hero__number-loc-item {
+  }
+  .hero__number-loc-things {
+    font-family: 'Titan One', sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    color: #d41443;
   }
   .hero__buttons {
     margin-top: 20px;
@@ -191,7 +210,7 @@
     margin-left: 35px;
   }
   .menu__link {
-    font-family: DM Sans;
+    font-family: 'DM Sans', Arial, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.31;
@@ -199,7 +218,11 @@
     vertical-align: Center;
     color: #ffffff;
 
-    cursor: pointer;
+    &:focus,
+    &:hover {
+      cursor: pointer;
+      color: #d41443;
+    }
   }
   .menu__link_activ {
     color: #d41443;
