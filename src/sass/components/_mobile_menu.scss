@@ -38,6 +38,12 @@
   width: 209px;
 }
 
+.mobile-menu__button:hover,
+.mobile-menu__button:focus {
+  background-color: $button_hover;
+  color: $main_accent_color;
+}
+
 .button-flex {
   display: flex;
   justify-content: center;
