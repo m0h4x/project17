@@ -105,7 +105,9 @@
 
   &__button {
     @media screen and (min-width: 768px) {
-      margin-left: 15px;
+      &:last-child {
+        margin-left: 15px;
+      }
     }
 
     @media screen and (max-width: 767px) {
