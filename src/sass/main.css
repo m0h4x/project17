@@ -1628,6 +1628,12 @@ address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (min-width: 280px) {
@@ -1647,22 +1653,6 @@ address {
     background-repeat: no-repeat;
     background-size: 171px, 346px;
     background-position: 80% 92px, right -50px top 83px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .header__container {
-    min-height: 393px;
-    background-size: 143px, 323px;
-    background-position: 344px 63px, 273px 31px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header__container {
-    min-height: 665px;
-    background-size: 236px, 538px;
-    background-position: 464px 108px, 345px 52px;
   }
 }
 
@@ -1713,12 +1703,11 @@ address {
   display: none;
 }
 
-.hero__button {
+.hero__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 19px;
-  padding-left: 20px;
 }
 
 .hero__button-item {
@@ -1768,17 +1757,12 @@ address {
   right: 32px;
 }
 
-.menu__link {
-  font-family: DM Sans;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.31;
-  line-height: 100%;
-  vertical-align: Center;
-  color: #ffffff;
-}
-
 @media screen and (min-width: 780px) {
+  .header__container {
+    min-height: 393px;
+    background-size: 143px, 323px;
+    background-position: 344px 63px, 273px 31px;
+  }
   .hero-header {
     height: 399px;
   }
@@ -1795,6 +1779,7 @@ address {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.31;
+    margin-left: 30px;
     color: #3a2127;
     background-color: #ffffff;
   }
@@ -1806,12 +1791,21 @@ address {
   }
   .hero__number-loc {
     display: block;
+    margin-left: auto;
+  }
+  .hero__buttons {
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-header {
     height: 665px;
+  }
+  .header__container {
+    min-height: 665px;
+    background-size: 236px, 538px;
+    background-position: 464px 108px, 345px 52px;
   }
   .burger {
     display: none;
@@ -1823,6 +1817,28 @@ address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu__item:not(:first-child) {
+    margin-left: 35px;
+  }
+  .menu__link {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    line-height: 100%;
+    vertical-align: Center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .menu__link_activ {
+    color: #d41443;
+  }
+  .hero__buttons {
+    margin-top: 25px;
   }
 }
 
