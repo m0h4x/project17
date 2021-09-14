@@ -3,6 +3,9 @@
 <symbol id="direction_icon" viewBox="0 0 26 32">
 <path fill="none" stroke="#d41443" stroke-width="6.4" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color1, #d41443)" d="M5.171 3.2l14.17 12.8-14.17 12.8"></path>
 </symbol>
+<symbol id="direction_icon_white" viewBox="0 0 6 10">
+<path fill="none" d="M1 1L4.61035 5L1 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
 <symbol id="dots_icon" viewBox="0 0 256 32">
 <path fill="#c7133e" style="fill: var(--color2, #c7133e)" d="M144 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
 <path fill="#c7133e" style="fill: var(--color2, #c7133e)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
