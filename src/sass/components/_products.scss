@@ -55,6 +55,12 @@
     font-size: 48px;
     margin-bottom: 150px;
   }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+    line-height: 1.14;
+    margin-bottom: 259px;
+  }
 }
 
 .products-list {
@@ -64,6 +70,11 @@
 
     margin-left: calc(-1 * 20px);
     margin-top: calc(-1 * 20px);
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-left: calc(-1 * 24px);
+    margin-top: calc(-1 * 24px);
   }
 }
 
@@ -109,6 +120,19 @@
     margin-left: 20px;
     margin-top: 20px;
     flex-basis: calc(100% / 3 - 20px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .products-item {
+    padding-top: 163px;
+    padding-bottom: 50px;
+    padding-left: 44px;
+    padding-right: 44px;
+
+    margin-left: 24px;
+    margin-top: 24px;
+    flex-basis: calc(100% / 3 - 24px);
   }
 }
 
@@ -161,6 +185,7 @@
   .products-item--ice-cream::before {
     width: 335px;
     height: 335px;
+    transform: translate(-50%, -60%);
     background-image: url(/images/products/ice-cream_desktop.png);
   }
 }
@@ -223,6 +248,7 @@
   .products-item--ice-coffee::before {
     width: 337px;
     height: 335px;
+    transform: translate(-50%, -60%);
     background-image: url(/images/products/ice-coffee_desktop.png);
   }
 }
@@ -285,6 +311,7 @@
   .products-item--milkshakes::before {
     width: 337px;
     height: 335px;
+    transform: translate(-50%, -60%);
     background-image: url(/images/products/milkshake_desktop.png);
   }
 }
@@ -309,6 +336,13 @@
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 32px;
+
+    font-size: 30px;
+    line-height: 1.13;
+  }
 }
 
 .products-description {
@@ -327,9 +361,12 @@
     font-size: 14px;
     line-height: 1.76;
     margin-bottom: 40px;
+  }
 
-    // width: 198px;
-    // height: 124px;
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.76;
+    margin-bottom: 62px;
   }
 }
 
@@ -342,6 +379,10 @@
   margin-left: auto;
   margin-bottom: 30px;
   background-image: url(/images/products-decoration.png);
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 32px;
+  }
 }
 
 .products-btn {
