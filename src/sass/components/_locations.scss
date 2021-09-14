@@ -8,7 +8,9 @@
   }
 
   @media screen and (min-width: 1280px) {
-    background-image: linear-gradient(to bottom, $white 15.5%, $main_bg_color 15.5%);
+    background-image: url('../images/locations.png'),
+      linear-gradient(to bottom, $white 15.5%, $main_bg_color 15.5%);
+    background-size: contain;
   }
 
   &__svg-icon {
