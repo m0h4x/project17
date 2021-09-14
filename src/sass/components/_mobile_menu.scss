@@ -77,12 +77,12 @@
   border-bottom: 1px solid #e18298;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1199px) {
   .mobile-menu {
     display: none;
   }
 }
 
-.mobile-menu__anchorn {
+.mobile-menu__anchor {
   color: $white;
 }
