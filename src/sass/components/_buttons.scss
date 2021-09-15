@@ -26,7 +26,8 @@
   &--red {
     background: $main_accent_color;
     border-radius: 22px;
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $focus-btn;
       transition: background-color $cubic-hover;
     }
@@ -34,7 +35,8 @@
   &--white {
     background: $white;
     border-radius: 22px;
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $focus-second-btn;
       transition: background-color $cubic-hover;
     }

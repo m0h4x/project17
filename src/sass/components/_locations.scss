@@ -52,7 +52,8 @@
   }
 }
 .locations-address-list {
-  a:hover {
+  a:hover,
+  a:focus {
     color: $ice_coffee_color;
     transition: color $cubic-hover;
   }
