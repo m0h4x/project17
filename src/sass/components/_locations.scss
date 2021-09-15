@@ -54,8 +54,11 @@
 .locations-address-list {
   a:hover,
   a:focus {
-    color: $ice_coffee_color;
-    transition: color $cubic-hover;
+    border-radius: 5px;
+    color: $font_theme_color;
+    background-color: $footer_border_color;
+    box-shadow: 0 0 10px $footer_border_color, 0 0 40px $footer_border_color,
+      0 0 80px $footer_border_color;
   }
 }
 .locations-list {
