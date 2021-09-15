@@ -17,6 +17,7 @@
 @media screen and (min-width: 280px) {
   .header__container {
     min-height: 502px;
+    background-repeat: no-repeat;
     background-image: url('../images/desk-ice-cream-1.png'), url('../images/Ellipse.png');
     background-repeat: no-repeat;
     background-size: 171px, 346px;
@@ -154,8 +155,8 @@
     line-height: 1.31;
 
     margin-left: 30px;
-    color: #3a2127;
 
+    color: #d41443;
     background-color: #ffffff;
     &:hover,
     &:focus {

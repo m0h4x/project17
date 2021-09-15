@@ -8,7 +8,10 @@
   }
 
   @media screen and (min-width: 1280px) {
-    background-image: linear-gradient(to bottom, $white 15.5%, $main_bg_color 15.5%);
+    background-image: url('../images/locations.png'),
+      linear-gradient(to bottom, $white 14.5%, $main_bg_color 14.5%);
+    background-size: contain;
+    background-position: center;
   }
 
   &__svg-icon {
@@ -46,6 +49,12 @@
     @media screen and (min-width: 1280px) {
       margin-top: 86px;
     }
+  }
+}
+.locations-address-list {
+  a:hover {
+    color: $ice_coffee_color;
+    transition: color $cubic-hover;
   }
 }
 .locations-list {
@@ -96,7 +105,9 @@
 
   &__button {
     @media screen and (min-width: 768px) {
-      margin-left: 15px;
+      &:last-child {
+        margin-left: 15px;
+      }
     }
 
     @media screen and (max-width: 767px) {
