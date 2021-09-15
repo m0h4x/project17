@@ -11,7 +11,8 @@
                         <img class="logo__icon" src="#" alt="logo">
                     </picture>
                 </a>
-                <button type="button" class="burger js-open-menu" aria-controls="mobile-menu" aria-expanded="false" data-menu-open>
+                <button type="button" class="burger js-open-menu" aria-controls="mobile-menu" aria-expanded="false"
+                    data-menu-open>
                     <svg class="burger__icon" width="20" height="12">
                         <use href="./images/symbol-defs.svg#icon-Burger"></use>
                     </svg>
@@ -19,7 +20,7 @@
                 <nav class="navigation">
                     <ul class="header__menu">
                         <li class="menu__item list">
-                            <a class="menu__link">Home</a>
+                            <a class="menu__link menu__link_activ">Home</a>
                         </li>
                         <li class="menu__item list">
                             <a class="menu__link">About us</a>
@@ -35,31 +36,31 @@
                         </li>
                     </ul>
                 </nav>
-                <button type="button" data-modal-open class="buy-now__btn">Buy now<span>
+ 
+                <button type="button" data-modal-open class="buy-now__btn">
+                    <span class="buy-now__text">Buy now</span>
 
-                    </span>
-                </button>
             </div>
-            <div>
-                <div class="hero__title-container">
-                    <h1 class="hero__title">ice cream<br>
-                        made with<br>
-                        <span class="hero__title_color">passion</span>
-                    </h1>
-                </div>
+            <div class="hero">
+
+                <h1 class="hero__title">ice cream<br>
+                    made with<br>
+                    <span class="hero__title_color">passion</span>
+                </h1>
+
                 <ul class="hero__number-loc">
                     <li class="hero__number-loc-item">
                         <span class="hero__number-loc-things">16</span>
                         <p class="hero__number-loc-text">cafes</p>
                     </li>
-                    <li class="hero__number-loc-item">
+                    <li class="hero__number-loc-item hero__number-loc-item_size">
                         <span class="hero__number-loc-things">23</span>
-                        <p class="hero__number-loc-text">food trucks</p>
+                        <p class="hero__number-loc-text hero__number-loc-text_position">food trucks</p>
                     </li>
                 </ul>
             </div>
 
-            <ul class="hero__button">
+            <ul class="hero__buttons">
                 <li class="hero__button-item">
                     <a class="hero__button-link" href="">Products</a>
                 </li>
@@ -75,7 +76,7 @@
             </div>
             <ul class="hero__pic">
 
-                <li class="hero__pic-item">
+                <li class="hero__pic-item hero__pic-item_left">
                     <picture>
                         <source media="(min-width: 1200px)"
                             srcset="./images/desk-decanter-1.webp 1x, ./images/desk-decanter-1@2x.webp 2x"
