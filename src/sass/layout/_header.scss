@@ -243,6 +243,12 @@
   .header__box {
     padding-top: 38px;
   }
+
+  .about-images_svgb {
+    width: 4px;
+    height: 8px;
+    margin-left: 10px;
+}
   .buy-now__btn {
     display: inline-block;
     width: 160px;
@@ -263,9 +269,9 @@
       cursor: pointer;
       background-color: #ecebeb;
     }
-    .buy-now__text {
-      color: #3a2127;
-    }
+    // .buy-now__text {
+    //  color: #3a2127;
+   // }
   }
   .hero {
     display: flex;

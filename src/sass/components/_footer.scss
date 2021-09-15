@@ -1,9 +1,6 @@
 .footer-bg {
-  background-color: $main_bg_color;
-}
-
-.info {
   padding-top: 105px;
+  background-color: $main_bg_color;
 }
 
 .motto {
@@ -87,8 +84,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .info {
+  .footer-bg {
     padding-top: 160px;
+  }
+
+  .info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -140,7 +140,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .info {
+  .footer-bg {
     padding-top: 170px;
   }
 
